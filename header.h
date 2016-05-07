@@ -10,6 +10,6 @@
 //classes and functions declarations
 char * intialize(int * sizeblock,std::string fileName);
 void countGreens(char*  block,int size);
-std::tuple<int,int> FindGreenCenter(char*  block, int size);
+std::tuple<int,int> FindGreenCenter(char*  block, int size,int fileWidth, int fileHeight);
 
 #endif
